@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    /* overflow: hidden; */
+    box-sizing: border-box;
+    color: #020113;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    max-width: 1440px;
+    background-color: #e8fafe;
+    overflow: hidden;
+    margin: auto;
+}
+nav{
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 5%;
+
+}
+.logo-img{
+    width: 150px;
+    margin-left: 20px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.menu-bar{
+    display: none;
+    width: 20px;
+}
+nav ul li:first-child{
+    font-weight: 700;
+    color: #20bc7e;
+}
+/* hero section */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+
+}
+main section{
+    width: 50%;
+}
+.Main-Section-left{
+    margin-left: 15%;
+    position: relative;
+}
+.top-angle-logo{
+    width: 25px;
+}
+.Main-Section-left h1{
+    font-size: 60px;
+}
+.Main-Section-left p{
+    color: #7c7c7c;
+    font-size: 18px;
+    margin: 20px 0;
+}
+.bottom-Angle-img{
+    width: 25px;
+    position: absolute;
+    right: 25px;
+}
+.stethoscope{
+    position: absolute;
+    width: 90%;
+    top: -60%;
+    right: -25%;
+    z-index: -1;
+    margin-top: 180px;
+}
+.Main-Section-left-button{
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 40px;
+    background-color: #20bc7e;
+    font-size: 22px;
+    font-weight: 700;
+
+}
+.Main-Section-left-button:hover{
+    border: 2px solid #000;
+}
+.mouse-img{
+    position: absolute;
+    right: -30px;
+    bottom: 0;
+    width: 30px;
+}
+/* main-section-right */
+.greenbox,.yellowBox{
+    position: absolute;
+    right: 0;
+
+}
+.greenbox{
+    width: 29%;
+    bottom: 10px;
+    z-index: -1;
+}
+.yellowBox{
+    width: 23%;
+    bottom: 30px;
+}
+.Dr-image{
+    position:absolute;
+    right: 0;
+    bottom: 0;
+    width: 380px;
+}
+@media screen and (max-width:900px){
+    body{
+        overflow: visible;
+        width: 100%;
+    }
+    main section{
+        width: 100vw;
+    }
+    /* .greenbox,.yellowBox{
+        display: none;
+    }
+    .Dr-image{
+            position:relative;
+            align-items: center;
+            justify-content: center;
+            margin-top: 20px;
+            width: 380px;
+    } */
+
+
+}
+
+
+
